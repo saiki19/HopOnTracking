@@ -1,0 +1,249 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    tools:context="com.example.kishore.hopontracking_v3.registercab"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1064AF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/editicon"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_edit_account_details"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:layout_marginTop="12dp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/cabid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.3"
+                    android:text="@string/cabid_label"
+                    android:background="#1064AF"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    />
+
+                <TextView
+                    android:id="@+id/acc_details_cabid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.7"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.3"
+                    android:text="@string/vendor_label"
+                    android:background="#1064AF"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    />
+
+                <TextView
+                    android:id="@+id/acc_details_vendor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.7"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.3"
+                    android:text="@string/plate_label"
+                    android:background="#1064AF"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    />
+
+                <TextView
+                    android:id="@+id/acc_details_plateNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.7"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.3"
+                    android:text="@string/driver_label"
+                    android:background="#1064AF"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    />
+
+                <EditText
+                    android:id="@+id/edit_driver"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.7"
+                    android:inputType="textCapCharacters"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.3"
+                    android:text="@string/contact_label"
+                    android:background="#1064AF"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    />
+
+                <EditText
+                    android:id="@+id/edit_contact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_weight="0.7"
+                    android:textSize="20sp"
+                    android:inputType="phone"
+                    android:textColor="#000"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/Update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="@string/button_update"
+                android:background="@color/themeBlue"
+                android:shadowColor="@color/buttonShadow"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="updatedetails"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

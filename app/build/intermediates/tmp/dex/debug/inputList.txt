@@ -1,0 +1,6 @@
+/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/classes/debug
+/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-e144882c55be3ba378cb6361f43da4c9cecfa8f3.jar
+/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-9b87e8b7148c5f2409a52e71dd8c7b2f60c5cc7b.jar
+/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/classes-d06d811347316fddb3112a57f859e7ea3768784e.jar
+/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/classes-ccadf695300911c576fade7a47d9f7afc4732ee1.jar
+/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/classes-08f6bb9f516579ea504ea4ee44545bcd1e488538.jar

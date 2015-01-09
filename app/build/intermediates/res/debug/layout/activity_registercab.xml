@@ -1,0 +1,243 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCCCCC"
+    tools:context="com.example.kishore.hopontracking_v3.registercab"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1064AF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/registericon"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_registercab"
+            android:textSize="32sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:layout_marginTop="12dp"
+            />
+
+        </LinearLayout>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.3"
+                android:text="@string/cabid_label"
+                android:background="#1064AF"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                />
+
+            <EditText
+                android:id="@+id/cabid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.7"
+                android:hint="@string/cabid_hint"
+                android:textSize="20sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:inputType="textCapCharacters"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.3"
+                android:text="@string/vendor_label"
+                android:background="#1064AF"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                />
+
+            <EditText
+                android:id="@+id/company"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.7"
+                android:hint="@string/vendor_hint"
+                android:textSize="20sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:inputType="textCapCharacters"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.3"
+                android:text="@string/plate_label"
+                android:background="#1064AF"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                />
+
+            <EditText
+                android:id="@+id/NoPlate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.7"
+                android:hint="@string/plate_hint"
+                android:textSize="20sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:inputType="textCapCharacters"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.3"
+                android:text="@string/driver_label"
+                android:background="#1064AF"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                />
+
+            <EditText
+                android:id="@+id/drivername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.7"
+                android:hint="@string/driver_hint"
+                android:textSize="20sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:inputType="textCapCharacters"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.3"
+                android:text="@string/contact_label"
+                android:background="#1064AF"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                />
+
+            <EditText
+                android:id="@+id/phoneNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_weight="0.7"
+                android:hint="@string/contact_hint"
+                android:textSize="20sp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:inputType="phone"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/button_register"
+            android:background="@color/themeBlue"
+            android:shadowColor="@color/buttonShadow"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="sendAccountDetails"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+<!-- From: file:/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/src/main/res/layout/activity_registercab.xml -->

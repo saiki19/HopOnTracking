@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/classes-08f6bb9f516579ea504ea4ee44545bcd1e488538.jar" />
+    </item>
+    <item
+        jar="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-9b87e8b7148c5f2409a52e71dd8c7b2f60c5cc7b.jar" />
+    </item>
+    <item
+        jar="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/classes-ccadf695300911c576fade7a47d9f7afc4732ee1.jar" />
+    </item>
+    <item
+        jar="/home/kishore/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-e144882c55be3ba378cb6361f43da4c9cecfa8f3.jar" />
+    </item>
+    <item
+        jar="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/kishore/Documents/Android_Programming/HopOnTracking_V3/app/build/intermediates/pre-dexed/debug/classes-d06d811347316fddb3112a57f859e7ea3768784e.jar" />
+    </item>
+
+</items>

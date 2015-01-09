@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HopOn Tracking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Account Details</string>
+    <string name="title_activity_splashscreen">HopOn Tracking</string>
+    <string name="title_activity_registercab">REGISTER CAB </string>
+    <string name="cabid_label"> CAB ID</string>
+    <string name="cabid_hint">MAK-CLR-VEND-NO</string>
+    <string name="vendor_label"> VENDOR </string>
+    <string name="vendor_hint"> CAB VENDOR NAME </string>
+    <string name="plate_label">PLATE NO</string>
+    <string name="plate_hint">REGISTRATION NUMBER</string>
+    <string name="driver_label"> DRIVER</string>
+    <string name="driver_hint"> DRIVER NAME </string>
+    <string name="contact_label">CONTACT</string>
+    <string name="contact_hint">DRIVER PHONE NUM</string>
+    <string name="button_register">REGISTER</string>
+    <string name="title_activity_account_details">ACCOUNT</string>
+    <string name="title_activity_edit_account">editAccount</string>
+    <string name="button_update">UPDATE</string>
+    <string name="title_activity_edit_account_details">EDIT ACCOUNT</string>
+    <string name="latitude_label">LATITUDE</string>
+    <string name="longitude_label">LONGITUDE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_updated_message">Location Updated</string>
+    <string name="httpsent_success">Data Sent</string>
+
+</resources>
